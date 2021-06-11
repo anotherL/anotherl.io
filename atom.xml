@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>啾啾</title>
+  
+  
+  <link href="https://anotherl.github.io/anotherl.io/atom.xml" rel="self"/>
+  
+  <link href="https://anotherl.github.io/anotherl.io/"/>
+  <updated>2021-01-05T06:25:50.000Z</updated>
+  <id>https://anotherl.github.io/anotherl.io/</id>
+  
+  <author>
+    <name>啾啾</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>zero</title>
+    <link href="https://anotherl.github.io/anotherl.io/2019/07/03/zero/"/>
+    <id>https://anotherl.github.io/anotherl.io/2019/07/03/zero/</id>
+    <published>2019-07-03T07:17:52.000Z</published>
+    <updated>2021-01-05T06:25:50.000Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="0"><a href="#0" class="headerlink" title="0"></a>0</h1>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;0&quot;&gt;&lt;a href=&quot;#0&quot; class=&quot;headerlink&quot; title=&quot;0&quot;&gt;&lt;/a&gt;0&lt;/h1&gt;</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://anotherl.github.io/anotherl.io/2019/06/03/hello-world/"/>
+    <id>https://anotherl.github.io/anotherl.io/2019/06/03/hello-world/</id>
+    <published>2019-06-03T03:48:27.000Z</published>
+    <updated>2021-01-05T03:47:27.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html">Deployment</a></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for</summary>
+      
+    
+    
+    
+    <category term="Hexo" scheme="https://anotherl.github.io/anotherl.io/categories/Hexo/"/>
+    
+    
+    <category term="Hexo" scheme="https://anotherl.github.io/anotherl.io/tags/Hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>testpages</title>
+    <link href="https://anotherl.github.io/anotherl.io/2019/05/17/testpages/"/>
+    <id>https://anotherl.github.io/anotherl.io/2019/05/17/testpages/</id>
+    <published>2019-05-17T02:39:04.000Z</published>
+    <updated>2019-06-03T08:14:32.000Z</updated>
+    
+    <content type="html"><![CDATA[<script src=/js/crypto-js.js></script><script>function doDecrypt (pwd, onError) {console.log('in doDecrypt');const txt = document.getElementById('enc_content').innerHTML;let plantext;try {const bytes = CryptoJS.AES.decrypt(txt, pwd);var plaintext = bytes.toString(CryptoJS.enc.Utf8);} catch(err) {if(onError) {onError(err);}return;}document.getElementById('enc_content').innerHTML = plaintext;document.getElementById('enc_content').style.display = 'block';document.getElementById('enc_passwd').style.display = 'none';if(typeof MathJax !== 'undefined') {MathJax.Hub.Queue(['resetEquationNumbers', MathJax.InputJax.TeX],['PreProcess', MathJax.Hub],['Reprocess', MathJax.Hub]);}}</script><div id="enc_content" style="display:none">U2FsdGVkX1/JdBwTO1tZtbNZzqneeq1bYcwaMS+vImv3xDFe91LMlYE27Psktorlk63SJx1bPuMhr2gO6N+4/i4d+/RgK2FsH3bz++z7slVVl+WRT79V1de+w7HRZQcKuOvGUjArUh23sAM+y+7kGPcVnugVe1xJZXm4rTztvFBJJAXHI0cBxmKASaVG5/kJ+dEOsKMRKL8uN8xknrjKpJ1g+a8nHIfihfwnx47jqynSDJBnCCgNhpuZzTLgAzI4D+xbiatnH0TLVuU+tfobcteoV+iuczkb+p8YrcZKNGALnldOKduPUwLw1qWijZvh7K/Nq/Z/9bRtbIVrmIbmlMaDSSfURiPuSPAtab0wPivfH899laAgqgOqPNnEaBr4byft8IWm4WpqFROKEqlWC93nvrbAphs95+z4uhme+4NbldWKCr410iiqw7Y3+1qq/MAzGHzxqrPoIfgvY7CX3Q==</div><div id="enc_passwd"> <input id="enc_pwd_input" type="password" style="border-radius: 5px;border-style: groove;height: 30px;width: 50%;cursor: auto;font-size: 102%;color: currentColor;outline: none;text-overflow: initial;padding-left: 5px;" onkeydown="if (event.keyCode == 13) { decrypt(); return false;}"> <input type="submit" value="解&nbsp;密" onclick="decrypt()" style="width: 58px;height: 34px;border-radius: 5px;background-color: white;border-style: solid;color: currentColor;"><div id="enc_error" style="display: inline-block;color: #d84527;margin-left: 10px"></div><script>var onError = function(error) {document.getElementById("enc_error").innerHTML = "password error!"};function decrypt() {var passwd = document.getElementById("enc_pwd_input").value;console.log(passwd);doDecrypt(passwd, onError);}</script></div>]]></content>
+    
+    
+    <summary type="html">文章访问需要密码</summary>
+    
+    
+    
+    <category term="zzzZZZ" scheme="https://anotherl.github.io/anotherl.io/categories/zzzZZZ/"/>
+    
+    
+    <category term="标签1" scheme="https://anotherl.github.io/anotherl.io/tags/%E6%A0%87%E7%AD%BE1/"/>
+    
+    <category term="标签2 (可选)" scheme="https://anotherl.github.io/anotherl.io/tags/%E6%A0%87%E7%AD%BE2-%E5%8F%AF%E9%80%89/"/>
+    
+  </entry>
+  
+</feed>
